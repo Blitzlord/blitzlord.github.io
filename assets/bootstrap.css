@@ -3164,6 +3164,11 @@ fieldset:disabled .btn {
   border-color: #0d6efd
 }
 
+
+.collapse:not(.show) {
+  display: none;
+}
+
 .nav {
   display: flex;
   flex-wrap: wrap;
