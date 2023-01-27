@@ -1,27 +1,27 @@
 {
-  "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page-42c95c88.css",
-    "src": "src/routes/+page.css"
-  },
   "sendEvent.css": {
     "file": "_app/immutable/assets/sendEvent-30abcd50.css",
     "src": "sendEvent.css"
   },
   "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-b4cdf557.css",
+    "file": "_app/immutable/assets/_layout-93601371.css",
     "src": "src/routes/+layout.css"
   },
   "src/routes/tera-type-calculator.html/+page.css": {
     "file": "_app/immutable/assets/_page-f92fbb69.css",
     "src": "src/routes/tera-type-calculator.html/+page.css"
   },
-  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-298b859f.js",
-    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
-    "isEntry": true,
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page-ca1f42aa.css",
+    "src": "src/routes/+page.css"
+  },
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-20bdb151.js",
+    "src": ".svelte-kit/generated/nodes/2.js",
+    "isDynamicEntry": true,
     "imports": [
-      "_index-6c4a4d91.js",
-      "_stores-759b1ad4.js"
+      "__page-fca24c55.js",
+      "src/routes/+page.svelte"
     ]
   },
   "_GA-e96febe3.js": {
@@ -30,19 +30,34 @@
       "_index-6c4a4d91.js"
     ]
   },
-  "_interfaces-64f496f9.js": {
-    "file": "_app/immutable/chunks/interfaces-64f496f9.js"
-  },
   "__page-da46b06b.js": {
     "file": "_app/immutable/chunks/_page-da46b06b.js"
   },
-  ".svelte-kit/generated/nodes/3.js": {
-    "file": "_app/immutable/chunks/3-81a669e2.js",
-    "src": ".svelte-kit/generated/nodes/3.js",
+  ".svelte-kit/generated/nodes/4.js": {
+    "file": "_app/immutable/chunks/4-f7f31898.js",
+    "src": ".svelte-kit/generated/nodes/4.js",
     "isDynamicEntry": true,
     "imports": [
-      "__page-90a7f2f4.js",
-      "src/routes/howto-video.html/+page.svelte"
+      "__page-da46b06b.js",
+      "src/routes/tera-type-calculator.html/+page.svelte"
+    ]
+  },
+  "_stores-759b1ad4.js": {
+    "file": "_app/immutable/chunks/stores-759b1ad4.js",
+    "imports": [
+      "_index-6c4a4d91.js",
+      "_singletons-83ddacde.js"
+    ]
+  },
+  "_interfaces-64f496f9.js": {
+    "file": "_app/immutable/chunks/interfaces-64f496f9.js"
+  },
+  ".svelte-kit/generated/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-d26effef.js",
+    "src": ".svelte-kit/generated/nodes/0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+layout.svelte"
     ]
   },
   "__page-fca24c55.js": {
@@ -54,20 +69,29 @@
       "_index-6c4a4d91.js"
     ]
   },
-  "_stores-759b1ad4.js": {
-    "file": "_app/immutable/chunks/stores-759b1ad4.js",
-    "imports": [
-      "_index-6c4a4d91.js",
-      "_singletons-83ddacde.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/4.js": {
-    "file": "_app/immutable/chunks/4-d6c878dd.js",
-    "src": ".svelte-kit/generated/nodes/4.js",
+  ".svelte-kit/generated/nodes/5.js": {
+    "file": "_app/immutable/chunks/5-817f30a6.js",
+    "src": ".svelte-kit/generated/nodes/5.js",
     "isDynamicEntry": true,
     "imports": [
-      "__page-e94d8ac7.js",
-      "src/routes/tera-type-calculator.html/+page.svelte"
+      "__page-90a7f2f4.js",
+      "src/routes/type-table.html/+page.svelte"
+    ]
+  },
+  "src/routes/howto-video.html/+page.ts": {
+    "file": "_app/immutable/modules/pages/howto-video.html/_page.ts-94291217.js",
+    "src": "src/routes/howto-video.html/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "__page-e94d8ac7.js"
+    ]
+  },
+  "src/routes/+page.ts": {
+    "file": "_app/immutable/modules/pages/_page.ts-dc85b7cd.js",
+    "src": "src/routes/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "__page-fca24c55.js"
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
@@ -78,16 +102,45 @@
       "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
     ]
   },
-  "__page-90a7f2f4.js": {
-    "file": "_app/immutable/chunks/_page-90a7f2f4.js"
-  },
   "src/routes/tera-type-calculator.html/+page.ts": {
     "file": "_app/immutable/modules/pages/tera-type-calculator.html/_page.ts-94291217.js",
     "src": "src/routes/tera-type-calculator.html/+page.ts",
     "isEntry": true,
     "imports": [
-      "__page-e94d8ac7.js"
+      "__page-da46b06b.js"
     ]
+  },
+  "src/routes/type-table.html/+page.ts": {
+    "file": "_app/immutable/modules/pages/type-table.html/_page.ts-94291217.js",
+    "src": "src/routes/type-table.html/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "__page-90a7f2f4.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/3.js": {
+    "file": "_app/immutable/chunks/3-81a669e2.js",
+    "src": ".svelte-kit/generated/nodes/3.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__page-e94d8ac7.js",
+      "src/routes/howto-video.html/+page.svelte"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "_app/immutable/components/error.svelte-298b859f.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-6c4a4d91.js",
+      "_stores-759b1ad4.js"
+    ]
+  },
+  "__page-90a7f2f4.js": {
+    "file": "_app/immutable/chunks/_page-90a7f2f4.js"
+  },
+  "__page-e94d8ac7.js": {
+    "file": "_app/immutable/chunks/_page-e94d8ac7.js"
   },
   "src/routes/howto-video.html/+page.svelte": {
     "file": "_app/immutable/components/pages/howto-video.html/_page.svelte-9bc2fbb4.js",
@@ -97,59 +150,6 @@
       "_index-6c4a4d91.js",
       "_GA-e96febe3.js"
     ]
-  },
-  "src/routes/howto-video.html/+page.ts": {
-    "file": "_app/immutable/modules/pages/howto-video.html/_page.ts-94291217.js",
-    "src": "src/routes/howto-video.html/+page.ts",
-    "isEntry": true,
-    "imports": [
-      "__page-90a7f2f4.js"
-    ]
-  },
-  "src/routes/type-table.html/+page.ts": {
-    "file": "_app/immutable/modules/pages/type-table.html/_page.ts-94291217.js",
-    "src": "src/routes/type-table.html/+page.ts",
-    "isEntry": true,
-    "imports": [
-      "__page-fca24c55.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/5.js": {
-    "file": "_app/immutable/chunks/5-817f30a6.js",
-    "src": ".svelte-kit/generated/nodes/5.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__page-fca24c55.js",
-      "src/routes/type-table.html/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-98388990.js",
-    "src": ".svelte-kit/generated/nodes/2.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__page-da46b06b.js",
-      "src/routes/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-d26effef.js",
-    "src": ".svelte-kit/generated/nodes/0.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/+layout.svelte"
-    ]
-  },
-  "src/routes/+page.ts": {
-    "file": "_app/immutable/modules/pages/_page.ts-dc85b7cd.js",
-    "src": "src/routes/+page.ts",
-    "isEntry": true,
-    "imports": [
-      "__page-da46b06b.js"
-    ]
-  },
-  "__page-e94d8ac7.js": {
-    "file": "_app/immutable/chunks/_page-e94d8ac7.js"
   },
   "src/routes/type-table.html/+page.svelte": {
     "file": "_app/immutable/components/pages/type-table.html/_page.svelte-c352d6fa.js",
@@ -161,11 +161,23 @@
       "_GA-e96febe3.js"
     ]
   },
+  "src/routes/+layout.svelte": {
+    "file": "_app/immutable/components/pages/_layout.svelte-a6024bcf.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-6c4a4d91.js",
+      "_stores-759b1ad4.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-93601371.css"
+    ]
+  },
   "_index-6c4a4d91.js": {
     "file": "_app/immutable/chunks/index-6c4a4d91.js"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-6571803d.js",
+    "file": "_app/immutable/start-336878a9.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -181,34 +193,22 @@
       ".svelte-kit/generated/nodes/5.js"
     ]
   },
-  "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-a6024bcf.js",
-    "src": "src/routes/+layout.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-6c4a4d91.js",
-      "_stores-759b1ad4.js"
-    ],
-    "css": [
-      "_app/immutable/assets/_layout-b4cdf557.css"
-    ]
-  },
   "src/routes/tera-type-calculator.html/+page.svelte": {
-    "file": "_app/immutable/components/pages/tera-type-calculator.html/_page.svelte-2638cd18.js",
+    "file": "_app/immutable/components/pages/tera-type-calculator.html/_page.svelte-d08f35a2.js",
     "src": "src/routes/tera-type-calculator.html/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-6c4a4d91.js",
       "_GA-e96febe3.js",
-      "_sendEvent-a801d7b7.js",
+      "_sendEvent-2ccbea54.js",
       "_interfaces-64f496f9.js"
     ],
     "css": [
       "_app/immutable/assets/_page-f92fbb69.css"
     ]
   },
-  "_sendEvent-a801d7b7.js": {
-    "file": "_app/immutable/chunks/sendEvent-a801d7b7.js",
+  "_sendEvent-2ccbea54.js": {
+    "file": "_app/immutable/chunks/sendEvent-2ccbea54.js",
     "imports": [
       "_index-6c4a4d91.js",
       "_interfaces-64f496f9.js"
@@ -218,17 +218,17 @@
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-fc2c274f.js",
+    "file": "_app/immutable/components/pages/_page.svelte-7b6216ed.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-6c4a4d91.js",
-      "_sendEvent-a801d7b7.js",
+      "_sendEvent-2ccbea54.js",
       "_interfaces-64f496f9.js",
       "_GA-e96febe3.js"
     ],
     "css": [
-      "_app/immutable/assets/_page-42c95c88.css"
+      "_app/immutable/assets/_page-ca1f42aa.css"
     ]
   }
 }
