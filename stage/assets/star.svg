@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   viewBox="0 0 194.22 184.73"
+   id="s1">
+  <defs
+     id="d1" />
+  <g
+     transform="translate(-262.89 -462.86)"
+     id="l1">
+    <g
+       transform="translate(10.175 71.896)"
+       id="g1">
+      <path
+         transform="matrix(2.2115 .038861 -.038861 2.2115 -385.88 -623.3)"
+         d="m 369.21074,535.66915 -27.37826,-13.79201 -26.88268,14.73466 4.65663,-30.30024 -22.3207,-21.01369 30.25622,-4.93457 13.08773,-27.72183 14.04274,27.25051 30.40937,3.88065 -21.57733,21.77631 z"
+         style="fill:#ffcc00"
+         id="p1" />
+      <path
+         style="fill:#ffe680"
+         d="m380.03 451.38c-30.39 41.369-30.72 41.819-30.72 41.819l97.411-31.899z"
+         id="p2" />
+      <path
+         style="fill:#ffdd55"
+         d="m349.81 492.31v51.942l-60.63 31.117z"
+         id="p3" />
+      <path
+         style="fill:#ffdd55"
+         d="m349.81 492.31 59.613 81.476-11.189-65.984z"
+         id="p4" />
+      <path
+         style="fill:#ffe680"
+         d="m253.1 461.37 96.715 30.942-29.882-40.842z"
+         id="p5" />
+      <path
+         style="fill:#ffdd55"
+         d="m349.81 492.31v-101.22l29.83 60.357z"
+         id="p6" />
+      <path
+         style="fill:#ffd42a"
+         d="m289.8 574.53 11.261-66.541 48.757-15.679z"
+         id="p7" />
+    </g>
+  </g>
+</svg>
