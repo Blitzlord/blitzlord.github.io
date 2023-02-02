@@ -42,21 +42,28 @@
 		<base href="/" />
 		<link rel="canonical" href="https://terastal.net/" />
 		<link href="/assets/bootstrap.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://securepubads.g.doubleclick.net/" crossorigin>
+		<!-- Place the below code anywhere you like in the <head> (higher is better) -->
+		<script>window.AdSlots = window.AdSlots || {cmd: [], disableScripts: ['gpt']};</script>
+		<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+		<script async src="https://kumo.network-n.com/dist/app.js" site="terastal"></script>
+
+
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_layout-93601371.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/_layout-2b334758.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/_page-ca1f42aa.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/sendEvent-30abcd50.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-f5de44d4.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-6c4a4d91.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-83ddacde.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-a6024bcf.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/stores-759b1ad4.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-cbe1cf32.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/sendEvent-2ccbea54.js">
+		<link rel="modulepreload" href="./_app/immutable/start-dc65e274.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-7126a34b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-c091dfce.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-5bd13f45.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores-282def3e.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-c0483268.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/sendEvent-be330808.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/interfaces-64f496f9.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/GA-e96febe3.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/GA-d336c68f.js">
 		<link rel="modulepreload" href="./_app/immutable/modules/pages/_page.ts-dc85b7cd.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/_page-e94d8ac7.js"><title>Terastal Calculator - Best Pokemon for Tera Raids</title><!-- HEAD_svelte-1hfgv1q_START -->
+		<link rel="modulepreload" href="./_app/immutable/chunks/_page-da46b06b.js"><title>Terastal Calculator - Best Pokemon for Tera Raids</title><!-- HEAD_svelte-1hfgv1q_START -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8L9PXM6PDZ"></script>
 	<script>window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
@@ -77,11 +84,12 @@
 			<div class="collapse navbar-collapse" id="navbarNav"><ul class="navbar-nav"><li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Raid Counter</a></li>
 					<li class="nav-item"><a class="nav-link undefined" href="/tera-type-calculator.html">Tera Type Calculator</a></li>
 					<li class="nav-item"><a class="nav-link undefined" href="/type-table.html">Type Table</a></li>
-					<li class="nav-item"><a class="nav-link undefined" href="/howto-video.html">HowTo Video</a></li></ul></div>
-			
-			</div></nav></header>
-
-	<main>
+					<li class="nav-item">
+						<button class="type type__button" data-type="Dark" style="margin-right: 10px;"><span>Dark Mode</span></button></li>
+					<li class="nav-item">
+						<button class="type type__button" data-type="Electric"><span>Light Mode</span></button></li></ul></div></div></nav></header>
+	<main><div id="nn_lb2"></div>
+		
 
 <div id="raid-counter" class="divider"></div>
 
@@ -91,7 +99,7 @@
 									<form class="pokemon-search-form svelte-1fpf2fw"><div class="row"><div class="col-12 px-0" data-selected="0"><small>Filter search by type</small><br>
 												<button type="button" title="Normal" data-type="Normal" data-selected="false" class="type type__symbol-small" value="Normal"></button><button type="button" title="Fire" data-type="Fire" data-selected="false" class="type type__symbol-small" value="Fire"></button><button type="button" title="Water" data-type="Water" data-selected="false" class="type type__symbol-small" value="Water"></button><button type="button" title="Electric" data-type="Electric" data-selected="false" class="type type__symbol-small" value="Electric"></button><button type="button" title="Grass" data-type="Grass" data-selected="false" class="type type__symbol-small" value="Grass"></button><button type="button" title="Ice" data-type="Ice" data-selected="false" class="type type__symbol-small" value="Ice"></button><button type="button" title="Fighting" data-type="Fighting" data-selected="false" class="type type__symbol-small" value="Fighting"></button><button type="button" title="Poison" data-type="Poison" data-selected="false" class="type type__symbol-small" value="Poison"></button><button type="button" title="Ground" data-type="Ground" data-selected="false" class="type type__symbol-small" value="Ground"></button><button type="button" title="Flying" data-type="Flying" data-selected="false" class="type type__symbol-small" value="Flying"></button><button type="button" title="Psychic" data-type="Psychic" data-selected="false" class="type type__symbol-small" value="Psychic"></button><button type="button" title="Bug" data-type="Bug" data-selected="false" class="type type__symbol-small" value="Bug"></button><button type="button" title="Rock" data-type="Rock" data-selected="false" class="type type__symbol-small" value="Rock"></button><button type="button" title="Ghost" data-type="Ghost" data-selected="false" class="type type__symbol-small" value="Ghost"></button><button type="button" title="Dragon" data-type="Dragon" data-selected="false" class="type type__symbol-small" value="Dragon"></button><button type="button" title="Dark" data-type="Dark" data-selected="false" class="type type__symbol-small" value="Dark"></button><button type="button" title="Steel" data-type="Steel" data-selected="false" class="type type__symbol-small" value="Steel"></button><button type="button" title="Fairy" data-type="Fairy" data-selected="false" class="type type__symbol-small" value="Fairy"></button><button type="button" title="Reset Type Filter" class="reset-small">Reset</button>
 												</div>
-											<div class="col-12 px-0"><div class="pokemon-input autocomplete select is-fullwidth sautocomplete-21 svelte-75ckfb   show-clear"><select  class="svelte-75ckfb"></select>
+											<div class="col-12 px-0"><div class="pokemon-input autocomplete select is-fullwidth sautocomplete-738 svelte-75ckfb   show-clear"><select  class="svelte-75ckfb"></select>
   <div class="input-container svelte-75ckfb">
     <input type="text" class="form-control form-control-lg svelte-75ckfb" id="" autocomplete="off" placeholder="Search Pokémon..." title="Pokémon Search" tabindex="0">
     <span class="autocomplete-clear-button svelte-75ckfb"><!-- HTML_TAG_START -->&#10006;<!-- HTML_TAG_END --></span></div>
@@ -283,17 +291,17 @@
 							<div class="raid-card-background-1"></div></div></div></div></div>
 
 			
-			<div class="row px-0 "><div class="col-12 col-lg-5"><div class="row"><h4 class="jumbotron-heading">Tera Raid Pokémon</h4>
+			<div class="row px-0 "><div class="col-12 col-lg-6"><div class="row"><h4 class="jumbotron-heading">Tera Raid Pokémon</h4>
 						<table class="table table-sm table-bordered"><tbody><tr><th>Possible Attacks</th>
 										<th>Power</th>
 										<th>Category</th></tr>
 									<tr><td colspan="3" class="error"><!-- HTML_TAG_START -->Please select a Pokémon.<!-- HTML_TAG_END --></td></tr></tbody></table></div>
 					<div class="row"><h4 class="jumbotron-heading">Best Counter Pokémon (Beta)</h4>
 							
-							<table class="table table-bordered table-sm table-striped"><thead><td colspan="9" class="error"><!-- HTML_TAG_START -->Please select a Pokémon.<!-- HTML_TAG_END --></td></thead>
+							<table class="table table-bordered table-sm table-striped table-pokemon-suggestions"><thead><td colspan="9" class="error"><!-- HTML_TAG_START -->Please select a Pokémon.<!-- HTML_TAG_END --></td></thead>
 								<tbody></tbody></table></div></div>
 
-				<div class="col-12 col-lg-7"><div class="row"><h4 class="jumbotron-heading">Best Abilities (Beta)</h4>
+				<div class="col-12 col-lg-6"><div class="row"><h4 class="jumbotron-heading">Best Abilities (Beta)</h4>
 						<table class="table table-bordered table-sm table-striped"><thead><tr><th>Ability</th>
 									<th>Description</th>
 									<th>Good against</th>
@@ -320,22 +328,24 @@
 							</div></div></div></div></div></div>
 
 </main>
-
 	<footer class="svelte-1040u2c"><div class="container"><p>Found a bug? Report it to: <a target="_blank" rel="noreferrer" href="https://www.reddit.com/user/Blitzlord">https://www.reddit.com/user/Blitzlord</a></p>
 			<span>This website is not affiliated with, sponsored or endorsed by, or in any way associated
 				with Pokémon or The Pokémon Company International Inc. Pokémon and all respective names are
-				Trademark &amp; © of Nintendo 1996-2023</span></div></footer>
-</div>
+				Trademark &amp; © of Nintendo 1996-2023</span>
+			<br>
+			<a href="/privacy-policy.html">Privacy Policy</a> | 
+			<a class="nn-cmp-show" href="#">Manage Cookie Settings</a></div></footer></div>
+<div class="mobile-leaderboard">mobile-leaderboard</div>
 
 
-		<script type="module" data-sveltekit-hydrate="neufd">
-			import { start } from "./_app/immutable/start-f5de44d4.js";
+		<script type="module" data-sveltekit-hydrate="jjf5ty">
+			import { start } from "./_app/immutable/start-dc65e274.js";
 
 			start({
 				env: {},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="neufd"]').parentNode,
-				version: "1674926548719",
+				target: document.querySelector('[data-sveltekit-hydrate="jjf5ty"]').parentNode,
+				version: "1675276210667",
 				hydrate: {
 					node_ids: [0, 2],
 					data: [null,null],
@@ -345,7 +355,8 @@
 		</script>
 	</div>
 		<script src="/assets/collapse.js"></script>
-		<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+		<script src="/assets/main.js"></script>
+		<!-- <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 		<script>
 			kofiWidgetOverlay.draw('terastal', {
 				'type': 'floating-chat',
@@ -353,6 +364,6 @@
 				'floating-chat.donateButton.background-color': '#fcbf47',
 				'floating-chat.donateButton.text-color': '#323842'
 			});
-		</script>
+		</script> -->
 	</body>
 </html>
