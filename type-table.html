@@ -42,16 +42,23 @@
 		<base href="/" />
 		<link rel="canonical" href="https://terastal.net/" />
 		<link href="/assets/bootstrap.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://securepubads.g.doubleclick.net/" crossorigin>
+		<!-- Place the below code anywhere you like in the <head> (higher is better) -->
+		<script>window.AdSlots = window.AdSlots || {cmd: [], disableScripts: ['gpt']};</script>
+		<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+		<script async src="https://kumo.network-n.com/dist/app.js" site="terastal"></script>
+
+
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_layout-93601371.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-0d5f8b15.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-6c4a4d91.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-83ddacde.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-a6024bcf.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/stores-759b1ad4.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/type-table.html/_page.svelte-c352d6fa.js">
+		<link href="./_app/immutable/assets/_layout-6964b58b.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/start-2484e949.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-7126a34b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-c091dfce.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-a131feb9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores-282def3e.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/type-table.html/_page.svelte-babdfe03.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/interfaces-64f496f9.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/GA-e96febe3.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/GA-d336c68f.js">
 		<link rel="modulepreload" href="./_app/immutable/modules/pages/type-table.html/_page.ts-94291217.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_page-fca24c55.js"><title>Terastal Calculator - Tera Type Table</title><!-- HEAD_svelte-9fl3ui_START --><link rel="canonical" href="https://terastal.net/type-table.html">
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8L9PXM6PDZ"></script>
@@ -63,6 +70,10 @@
 	</head>
 
 	<body data-sveltekit-preload-data="hover">
+		<!-- Desktop Sticky -->
+		<div id="nn_lb2"></div>
+		<!-- Mobile Sticky -->
+		<div id="nn_mobile_lb1"></div>
 		<div style="display: contents">
 
 
@@ -74,15 +85,17 @@
 			<div class="collapse navbar-collapse" id="navbarNav"><ul class="navbar-nav"><li class="nav-item"><a class="nav-link undefined" href="/">Raid Counter</a></li>
 					<li class="nav-item"><a class="nav-link undefined" href="/tera-type-calculator.html">Tera Type Calculator</a></li>
 					<li class="nav-item"><a class="nav-link active" aria-current="page" href="/type-table.html">Type Table</a></li>
-					<li class="nav-item"><a class="nav-link undefined" href="/howto-video.html">HowTo Video</a></li></ul></div>
-			
-			</div></nav></header>
-
+					<li class="nav-item">
+						<button class="type type__button" data-type="Dark" style="margin-right: 10px;"><span>Dark Mode</span></button></li>
+					<li class="nav-item">
+						<button class="type type__button" data-type="Electric"><span>Light Mode</span></button></li></ul></div></div></nav></header>
 	<main>
 <div id="type-table" class="divider"></div>
 
 <div class="container py-3 type-table"><div class="row"><div class="col-12"><h2 class="jumbotron-heading">Type Table</h2>
 				<p class="lead s-nPv-U4yeUmII">Learn and know the new symbols.</p>
+				<div class="lb-wrapper"><div id="nn_lb1"></div>
+					<div id="nn_mobile_lb2"></div></div>
 				<table class="table table-bordered table-sm type-table"><tbody><tr><th><small class="d-block d-sm-none">Old</small>
 								<span class="d-none d-sm-block d-lg-block ">Old Symbol</span></th>
 							<th><small class="d-block d-sm-none">New</small>
@@ -164,22 +177,24 @@
 							<td><div class="type type__tera-symbol align-middle align-top" style="background-color: var(--tera-dark-blue);" data-type="Fairy"></div></td>
 							<td>Fairy</td>
 						</tr></tbody></table></div></div></div></main>
-
 	<footer class="svelte-1040u2c"><div class="container"><p>Found a bug? Report it to: <a target="_blank" rel="noreferrer" href="https://www.reddit.com/user/Blitzlord">https://www.reddit.com/user/Blitzlord</a></p>
 			<span>This website is not affiliated with, sponsored or endorsed by, or in any way associated
 				with Pokémon or The Pokémon Company International Inc. Pokémon and all respective names are
-				Trademark &amp; © of Nintendo 1996-2023</span></div></footer>
+				Trademark &amp; © of Nintendo 1996-2023</span>
+			<br>
+			<a href="/privacy-policy.html">Privacy Policy</a> | 
+			<a class="nn-cmp-show" href="#">Manage Cookie Settings</a></div></footer>
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="j3fhbt">
-			import { start } from "./_app/immutable/start-0d5f8b15.js";
+		<script type="module" data-sveltekit-hydrate="bbfi4k">
+			import { start } from "./_app/immutable/start-2484e949.js";
 
 			start({
 				env: {},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="j3fhbt"]').parentNode,
-				version: "1675688510117",
+				target: document.querySelector('[data-sveltekit-hydrate="bbfi4k"]').parentNode,
+				version: "1675703378585",
 				hydrate: {
 					node_ids: [0, 5],
 					data: [null,null],
@@ -189,6 +204,7 @@
 		</script>
 	</div>
 		<script src="/assets/collapse.js"></script>
+		<script src="/assets/main.js"></script>
 		<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 		<script>
 			kofiWidgetOverlay.draw('terastal', {
