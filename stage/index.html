@@ -50,15 +50,15 @@
 
 
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_layout-2b334758.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/_layout-6964b58b.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/_page-ca1f42aa.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/sendEvent-30abcd50.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-7d9b2acd.js">
+		<link rel="modulepreload" href="./_app/immutable/start-3a8d2a49.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index-7126a34b.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-c091dfce.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-755eee42.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-a131feb9.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/stores-282def3e.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-d6a3edc5.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-f6f8e64d.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/sendEvent-be330808.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/interfaces-64f496f9.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/GA-d336c68f.js">
@@ -73,6 +73,10 @@
 	</head>
 
 	<body data-sveltekit-preload-data="hover">
+		<!-- Desktop Sticky -->
+		<div id="nn_lb2"></div>
+		<!-- Mobile Sticky -->
+		<div id="nn_mobile_lb1"></div>
 		<div style="display: contents">
 
 
@@ -89,21 +93,18 @@
 					<li class="nav-item">
 						<button class="type type__button" data-type="Electric"><span>Light Mode</span></button></li></ul></div></div></nav></header>
 	<main>
-		<div id="nn_lb2"></div>
-		
-		<div id="nn_mobile_lb1"></div>
-		
 
 <div id="raid-counter" class="divider"></div>
 
 <div class="container py-3 raid-counter"><div class="row px-0"><div class="col-12"><h2 class="jumbotron-heading">Tera Raid Counter</h2>
 			<p class="lead">Find the best Counter for a Tera Raid.</p>
-			<div class="desktop-leaderboard"><div id="nn_lb1"></div></div>
+			<div class="lb-wrapper"><div id="nn_lb1"></div>
+				<div id="nn_mobile_lb2"></div></div>
 			<div class="row px-0"><div class="col-12 px-0"><div class="raid-card"><div class="raid-card-inner"><div class="row position-relative px-0 py-0"><div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 									<form class="pokemon-search-form svelte-1fpf2fw"><div class="row"><div class="col-12 px-0" data-selected="0"><small>Filter search by type</small><br>
 												<button type="button" title="Normal" data-type="Normal" data-selected="false" class="type type__symbol-small" value="Normal"></button><button type="button" title="Fire" data-type="Fire" data-selected="false" class="type type__symbol-small" value="Fire"></button><button type="button" title="Water" data-type="Water" data-selected="false" class="type type__symbol-small" value="Water"></button><button type="button" title="Electric" data-type="Electric" data-selected="false" class="type type__symbol-small" value="Electric"></button><button type="button" title="Grass" data-type="Grass" data-selected="false" class="type type__symbol-small" value="Grass"></button><button type="button" title="Ice" data-type="Ice" data-selected="false" class="type type__symbol-small" value="Ice"></button><button type="button" title="Fighting" data-type="Fighting" data-selected="false" class="type type__symbol-small" value="Fighting"></button><button type="button" title="Poison" data-type="Poison" data-selected="false" class="type type__symbol-small" value="Poison"></button><button type="button" title="Ground" data-type="Ground" data-selected="false" class="type type__symbol-small" value="Ground"></button><button type="button" title="Flying" data-type="Flying" data-selected="false" class="type type__symbol-small" value="Flying"></button><button type="button" title="Psychic" data-type="Psychic" data-selected="false" class="type type__symbol-small" value="Psychic"></button><button type="button" title="Bug" data-type="Bug" data-selected="false" class="type type__symbol-small" value="Bug"></button><button type="button" title="Rock" data-type="Rock" data-selected="false" class="type type__symbol-small" value="Rock"></button><button type="button" title="Ghost" data-type="Ghost" data-selected="false" class="type type__symbol-small" value="Ghost"></button><button type="button" title="Dragon" data-type="Dragon" data-selected="false" class="type type__symbol-small" value="Dragon"></button><button type="button" title="Dark" data-type="Dark" data-selected="false" class="type type__symbol-small" value="Dark"></button><button type="button" title="Steel" data-type="Steel" data-selected="false" class="type type__symbol-small" value="Steel"></button><button type="button" title="Fairy" data-type="Fairy" data-selected="false" class="type type__symbol-small" value="Fairy"></button><button type="button" title="Reset Type Filter" class="reset-small">Reset</button>
 												</div>
-											<div class="col-12 px-0"><div class="pokemon-input autocomplete select is-fullwidth sautocomplete-952 svelte-75ckfb   show-clear"><select  class="svelte-75ckfb"></select>
+											<div class="col-12 px-0"><div class="pokemon-input autocomplete select is-fullwidth sautocomplete-41 svelte-75ckfb   show-clear"><select  class="svelte-75ckfb"></select>
   <div class="input-container svelte-75ckfb">
     <input type="text" class="form-control form-control-lg svelte-75ckfb" id="" autocomplete="off" placeholder="Search Pokémon..." title="Pokémon Search" tabindex="0">
     <span class="autocomplete-clear-button svelte-75ckfb"><!-- HTML_TAG_START -->&#10006;<!-- HTML_TAG_END --></span></div>
@@ -302,8 +303,9 @@
 									<tr><td colspan="3" class="error"><!-- HTML_TAG_START -->Please select a Pokémon.<!-- HTML_TAG_END --></td></tr></tbody></table></div>
 					<div class="row"><h4 class="jumbotron-heading">Best Counter Pokémon (Beta)</h4>
 							
-							<table class="table table-bordered table-sm table-striped table-pokemon-suggestions"><thead><td colspan="9" class="error"><!-- HTML_TAG_START -->Please select a Pokémon.<!-- HTML_TAG_END --></td></thead>
-								<tbody></tbody></table></div></div>
+							<table class="table table-bordered table-sm table-striped table-pokemon-suggestions" style="table-layout: fixed;"><thead><td colspan="7" class="error"><!-- HTML_TAG_START -->Please select a Pokémon.<!-- HTML_TAG_END --></td></thead>
+								<tbody></tbody></table>
+							<p><span><div class="badge score-bg" style="display: inline-block; width: 50px" data-score="10"><span>Δ 10</span></div></span> *Δ (delta) means e.g. the difference between your PKMNs STAT and the Raid Pokemons counter STAT (e.g. your ATT vs enemies DEF). A higher Δ is better.</p></div></div>
 
 				<div class="col-12 col-lg-6"><div class="row"><h4 class="jumbotron-heading">Best Abilities (Beta)</h4>
 						<table class="table table-bordered table-sm table-striped"><thead><tr><th>Ability</th>
@@ -342,14 +344,14 @@
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="c91xfw">
-			import { start } from "./_app/immutable/start-7d9b2acd.js";
+		<script type="module" data-sveltekit-hydrate="12cgxcw">
+			import { start } from "./_app/immutable/start-3a8d2a49.js";
 
 			start({
 				env: {},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="c91xfw"]').parentNode,
-				version: "1675373379875",
+				target: document.querySelector('[data-sveltekit-hydrate="12cgxcw"]').parentNode,
+				version: "1675683294079",
 				hydrate: {
 					node_ids: [0, 2],
 					data: [null,null],
